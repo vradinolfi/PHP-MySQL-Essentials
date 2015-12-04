@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-	<title>Title</title>
+	<title>First Page</title>
 
 	<!-- Bootstrap -->
 	<!-- Latest compiled and minified CSS -->
@@ -26,7 +26,7 @@
 
   <div class="jumbotron">
     <div class="container">
-      <h1>Title</h1>
+      <h1>First Page</h1>
       <h1>Subtitle</h1>
     </div>
   </div>
@@ -34,26 +34,17 @@
 
 <div class="container">
   <div class="page-header">
-<h2>Title</h2>
+<h2>First Page</h2>
 </div>
 
+<?php $link_name = "Second Page" ?>
+<?php $id = 5; ?>
+<?php $company = "Johnson & Johnson"?>
+
+<!-- rawurlencode the path(before the ?), urlencode the qeury string -->
+<a href="secondpage.php?id=<?php echo $id; ?>&company=<?php echo rawurlencode($company); ?>"><?php echo $link_name; ?></a>
+
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

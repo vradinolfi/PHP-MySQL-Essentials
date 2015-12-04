@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-	<title>Title</title>
+	<title>Second Page</title>
 
 	<!-- Bootstrap -->
 	<!-- Latest compiled and minified CSS -->
@@ -26,7 +26,7 @@
 
   <div class="jumbotron">
     <div class="container">
-      <h1>Title</h1>
+      <h1>Second Page</h1>
       <h1>Subtitle</h1>
     </div>
   </div>
@@ -34,34 +34,26 @@
 
 <div class="container">
   <div class="page-header">
-<h2>Title</h2>
+<h2>Second Page</h2>
 </div>
 
+<pre>
+	<?php	print_r($_GET);	?>
+</pre>
+
+<?php
+
+$id = $_GET['id'];
+$company = $_GET['company'];
+
+echo $id;
+echo "<br>";
+echo $company;
+
+ ?>
+
+
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <!-- Include all compiled plugins (below), or include individual files as needed -->

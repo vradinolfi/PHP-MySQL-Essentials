@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-	<title>Title</title>
+	<title>URL Encode</title>
 
 	<!-- Bootstrap -->
 	<!-- Latest compiled and minified CSS -->
@@ -26,7 +26,7 @@
 
   <div class="jumbotron">
     <div class="container">
-      <h1>Title</h1>
+      <h1>URL Encode</h1>
       <h1>Subtitle</h1>
     </div>
   </div>
@@ -34,26 +34,24 @@
 
 <div class="container">
   <div class="page-header">
-<h2>Title</h2>
+<h2>URL Encode</h2>
 </div>
 
+
+
+<?php
+	$page = "William Shakespeare";
+	$quote = "To be or not to be";
+	$link1 = "/bio/" . rawurlencode($page) . "?quote=" . urlencode($quote);
+	$link2 = "/bio/" . urlencode($page) . "?quote=" . rawurlencode($quote);
+
+	echo $link1 . "<br>";
+	echo $link2 . "<br>";
+
+?>
+
+
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
