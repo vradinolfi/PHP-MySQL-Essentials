@@ -21,7 +21,7 @@
   <![endif]-->
 
 </head>
-<body>
+<body style="padding-bottom: 400px;">
 
 
 		<div class="jumbotron">
@@ -65,7 +65,56 @@
 		<div class="page-header">
 			<h2>Numbers: Floating Points</h2>
 		</div>
-		<?php require_once("integers.php"); ?>
+		<?php require_once("floats.php"); ?>
+	</div>
+
+	<div class="container">
+		<div class="page-header">
+			<h2>Arrays</h2>
+		</div>
+		<?php require_once("arrays.php"); ?>
+	</div>
+
+	<div class="container">
+		<div class="page-header">
+			<h2>Associative Arrays</h2>
+		</div>
+		<?php require_once("assoc_arrays.php"); ?>
+	</div>
+
+	<div class="container">
+		<div class="page-header">
+			<h2>Array Functions</h2>
+		</div>
+		<?php require_once("array_functions.php"); ?>
+	</div>
+
+	<div class="container">
+		<div class="page-header">
+			<h2>Booleans</h2>
+		</div>
+		<?php require_once("booleans.php"); ?>
+	</div>
+
+	<div class="container">
+		<div class="page-header">
+			<h2>NULL and empty</h2>
+		</div>
+		<?php require_once("null.php"); ?>
+	</div>
+
+	<div class="container">
+		<div class="page-header">
+			<h2>Type Juggling &amp; Casting</h2>
+		</div>
+		<?php require_once("juggling.php"); ?>
+	</div>
+
+	<div class="container">
+		<div class="page-header">
+			<h2>Constants</h2>
+		</div>
+		<?php require_once("constants.php"); ?>
 	</div>
 
 	<!--
